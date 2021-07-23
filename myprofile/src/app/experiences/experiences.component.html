@@ -1,0 +1,34 @@
+<div class="main-container" style="width:100%;height:100%">
+  <br />
+  <br />
+  <br />
+  <h3>Professional Experience</h3>
+  <div class="timeline" *ngFor="let data of experiencedatas">
+    <div class="tcontainer {{data.align}}">
+      <div class="content">
+        <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{data.companyname}}
+              </mat-panel-title>
+              <mat-panel-description>
+                {{data.date}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div>
+              <p *ngFor="let desc of data.description">
+               {{desc}}
+              </p>
+              <p *ngIf="data.opensource != null"><b>Open Source Wiki:</b><a href={{data.opensource}} target="_blank">wiki link</a></p>
+              <p><b>Responsibilities:</b></p>
+              <div *ngFor="let jobr of data.responsibilites">
+                <p>{{jobr}}</p>
+              </div>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+    </div>
+  </div>

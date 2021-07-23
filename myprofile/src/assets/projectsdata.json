@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Web Crawler",
+    "description": "The Application crawls the webpages and stores the metadata politley.",
+    "image": "/assets/WebCrawler.PNG",
+    "content": "The Application has total 3 componentns (UI, 2 backend Micro Services) The UI Framework is developed using React JS. And, backend Micro Services are developed using Spring Boot.",
+    "githublink": "https://github.com/keerthibadugu/webcrawler"
+  },
+  {
+    "name": "My Portfolio App",
+    "description": "The Application which you are accessing right now :)",
+    "image": "/assets/myPortfolio.png",
+    "content": "This is a static Web Application that has been developed using Angular 8.",
+    "githublink": "https://github.com/keerthibadugu/myportfolio"
+  },
+  {
+    "name": "Feature Flags",
+    "description": "Developed the Feature Flag implementation using Launch Darkly to enable and disable features on fly.",
+    "image": "/assets/launchDarkly.png",
+    "content": "Application has been developed using Spring Boot and Used Launch Darkly Client to enable and disable feature flags.",
+    "githublink": "https://github.com/keerthibadugu/FeatureToggle"
+  }
+]

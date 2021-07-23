@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.main-container {
+  padding-top:10px;
+  overflow: auto;
+  padding-bottom: 100px;
+  display: block;
+  min-height: 80vh;
+}
+
+body {
+  background-color:beige;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+   box-sizing: border-box;
+ }

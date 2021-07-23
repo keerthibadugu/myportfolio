@@ -1,0 +1,38 @@
+<div class="main-container" style="width:100%;height:100%">
+  <br />
+  <br />
+  <br />
+  <div class="row">
+    <div class="col-sm-4">
+      <mat-card class="example-card">
+        <img mat-card-image src="/assets/myProfile.png" />
+        <header>
+          <h3 class="header-text"></h3>
+        </header>
+      </mat-card>
+    </div>
+    <div class="col-sm-8">
+      <div class="introduction">
+        <h1>Hello,</h1>
+        <h2 class="sub-header">I'm Keerthi Badugu. A Full Stack Developer.</h2>
+        <p><b>My Motto: Research, Design and Develop</b></p>
+      </div>
+      <br />
+      <br />
+      <div class="sub-header">
+        <p *ngFor="let data of aboutdata">
+          {{data}}
+        </p>
+        <p>
+          <b>My Goal:</b>
+          Make technology more accessible.
+          I believe technology can be a game changer if it is accessible to all,
+          and which helps solving the deep-rooted problems we are facing.
+          I believe I am in a position to make difference in this area, and I intend to capitalize on it.
+        </p>
+        <p><b>My Principles:</b> "Think Big", "Invent and Simplify" and "Be a Constant Learner".</p>
+      </div>
+    </div>
+  </div>
+</div>
+

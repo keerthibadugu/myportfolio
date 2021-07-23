@@ -1,0 +1,56 @@
+<div class="" style="width:100%;height:100%">
+  <br />
+  <br />
+  <br />
+  <h3 align="center" class="notefont"><b>Note:</b> All Skills are rated by score 10.</h3>
+  <mat-grid-list [cols]="breakpoint" rowHeight="100px" (window:resize)="onResize($event)">
+    <mat-grid-tile [colspan]="1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Languages:</mat-card-title>
+        <div id="languageSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Scripting Languages:</mat-card-title>
+        <div id="scriptingLanguageSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Databases:</mat-card-title>
+        <div id="databaseSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Frameworks:</mat-card-title>
+        <div id="frameworkSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="colspoint == 0 ? 2 : 1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Technologies:</mat-card-title>
+        <div id="technologySkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="colspoint == 0 ? 2 : 1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Servers/Version Control/Testing Frameworks:</mat-card-title>
+        <div id="serverAndVersionControlSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Cloud Technologies:</mat-card-title>
+        <div id="cloudTechnologySkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="colspoint == 0 ? 3 : 1" [rowspan]="4">
+      <mat-card style="width:100%; height:100%">
+        <mat-card-title>Tools:</mat-card-title>
+        <div id="toolsSkillsDiv" style="width: 100%; height: 300px"></div>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
